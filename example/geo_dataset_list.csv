@@ -1,0 +1,11 @@
+name,path,is_niche_variable,compare_to_future,similarity_for_variable,priority_for_niche,essential_for_niche
+study_area,../example/study_area.tif,FALSE,FALSE,,,
+patch_num,../example/protect_area.tif,FALSE,FALSE,,,
+R,../example/resistance.tif,TRUE,FALSE," [""-inf"", 0]",5,FALSE
+landuse,../example/landuse.tif,TRUE,FALSE,"[21, 22, 23,24,31,32,33]",1,TRUE
+c_con1,../example/current_PCA1.tif,TRUE,f_con1,"[-0.4, 0.4]",2,TRUE
+c_con2,../example/current_PCA2.tif,TRUE,f_con2,"[-0.8, 0.8]",3,FALSE
+c_con3,../example/current_PCA3.tif,TRUE,f_con3,"[-1.2, 1.2]",4,TRUE
+f_con1,../example/future_PCA1.tif,TRUE,FALSE,,,
+f_con2,../example/future_PCA2.tif,TRUE,FALSE,,,
+f_con3,../example/future_PCA3.tif,TRUE,FALSE,,,
